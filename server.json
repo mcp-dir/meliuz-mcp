@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/meliuz-mcp",
+  "title": "Méliuz MCP",
+  "description": "Connect your Méliuz account to AI via Brazil's Open Finance: balances, statements, cards, investment",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/meliuz-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_meliuz"
+    }
+  ]
+}
